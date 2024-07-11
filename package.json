@@ -1,0 +1,24 @@
+{
+  "name": "apidogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "api": "npx playwright test --project=chrome --grep \"@API\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hrqlv/apiDogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hrqlv/apiDogs/issues"
+  },
+  "homepage": "https://github.com/Hrqlv/apiDogs#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10"
+  }
+}
